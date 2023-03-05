@@ -5,3 +5,10 @@ grumphp:
         phpcs:
             standard:
               - 'PSR12'
+        phpunit:
+            config_file: ~
+            testsuite: ~
+            group: []
+            exclude_group: []
+            always_execute: false
+            order: null
