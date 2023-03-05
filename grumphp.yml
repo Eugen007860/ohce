@@ -1,3 +1,7 @@
 grumphp:
-    tasks: {}
-
+    tasks:
+        phpmd:
+            ruleset: ['cleancode', 'codesize', 'naming']
+        phpcs:
+            standard:
+              - 'PSR12'
