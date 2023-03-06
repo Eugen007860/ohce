@@ -1,6 +1,9 @@
 name: PHP Code Sniffer
 
-on: pull_request
+on: 
+  push:
+    branches:
+      - master
 
 jobs:
   phpcs:
