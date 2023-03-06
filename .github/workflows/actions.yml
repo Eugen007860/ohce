@@ -1,4 +1,4 @@
-name: Actions
+name: actions
 
 on: 
   push:
@@ -14,4 +14,7 @@ jobs:
 
       - name: Composer dependecies
         run: composer install
+      - run: ls
+      - run: ls vendor/
+      - run: ls vendor/bin/
       - run: ./vendor/bin/grumphp.php run
