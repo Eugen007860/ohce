@@ -1,4 +1,4 @@
-name: Actios
+name: Actions
 
 on: 
   push:
@@ -6,7 +6,7 @@ on:
       - master
 
 jobs:
-  phpcs:
+  actions:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
